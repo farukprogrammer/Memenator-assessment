@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.abdulrahman.memenator.fragments.CustomizeMemeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_input_toptext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TOP TEXT" />
+        <SeekBar
+            android:id="@+id/sb_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="50"
+            android:progress="14"
+            />
+
+        <EditText
+            android:id="@+id/et_input_bottomtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BOTTOM TEXT" />
+
+        <SeekBar
+            android:id="@+id/sb_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="50"
+            android:progress="14"
+            />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="360dp">
+
+            <ImageView
+                android:id="@+id/iv_meme_img"
+                android:background="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>
