@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "308462028232",
+    "firebase_url": "https://memenator-908c2.firebaseio.com",
+    "project_id": "memenator-908c2",
+    "storage_bucket": "memenator-908c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308462028232:android:de2420de35ea22e4",
+        "android_client_info": {
+          "package_name": "com.abdulrahman.memenator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308462028232-92i21q9r2epjjmm6cbk4vrtg0ec7oark.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abdulrahman.memenator",
+            "certificate_hash": "864701B016A2DF85F4A73089C3BEB16F59C565F2"
+          }
+        },
+        {
+          "client_id": "308462028232-08b6fohi39jlbhnsoavcq5kq5l6ff4ps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1WkeJ06gTC8pWt2HS8XsuJJUiJMGBFcw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308462028232-08b6fohi39jlbhnsoavcq5kq5l6ff4ps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

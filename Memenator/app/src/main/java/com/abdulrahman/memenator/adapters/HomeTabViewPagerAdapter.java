@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 
 import com.abdulrahman.memenator.fragments.CustomizeMemeFragment;
 import com.abdulrahman.memenator.fragments.DummyFragment;
+import com.abdulrahman.memenator.fragments.ListCharacterFragment;
+
 import java.util.ArrayList;
 
 /**
@@ -26,7 +28,7 @@ public class HomeTabViewPagerAdapter extends FragmentPagerAdapter {
 
         fragments.clear();
         fragments.add(new DummyFragment());
-        fragments.add(new CustomizeMemeFragment());
+        fragments.add(new ListCharacterFragment());
         fragments.add(new DummyFragment());
     }
 
