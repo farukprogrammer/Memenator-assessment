@@ -150,7 +150,7 @@ public class CustomizeMemeFragment extends Fragment {
                 //faruk : image format still jpeg
                 //TODO : get image format from user input
                 saveBitmapToFile(mNewBitmap, path, 100, Bitmap.CompressFormat.JPEG);
-                Toast.makeText(getActivity(), "Image Saved!!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), "Image Saved!! in "+path, Toast.LENGTH_SHORT).show();
 
                 //TODO : upload image to firebase storage
 
